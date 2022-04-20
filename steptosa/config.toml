@@ -1,0 +1,32 @@
+baseURL = 'https://steptosa.github.io/'
+languageCode = 'en-us'
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "workshop"
+  # Git hub repo link
+  editURL = ""
+  description = ""
+  author = ""
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  
+[Languages]
+[Languages.en]
+title = "AWS System Manager"
+weight = 1
+languageName = "English"
+
+[Languages.vi]
+title = "AWS System Manager"
+weight = 2
+languageName = "Tiếng Việt"
+
